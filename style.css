@@ -125,39 +125,40 @@ body, html {
 
     #save-contact-btn {
         top: 50%; /* Example: adjust this value to position the button vertically */
-        left: 5%; /* Example: adjust this value to position the button horizontally */
+        left: 25%; /* Example: adjust this value to position the button horizontally */
         width: 30%; /* Example: adjust this value to change the button's width */
         height: 8%; /* Example: adjust this value to change the button's height */
     }
 
     #whatsapp-btn {
         top: 60%;
-        left: 5%;
+        left: 25%;
         width: 30%;
         height: 8%;
     }
 
     #email-btn {
         top: 70%; /* Adjust as needed */
-        left: 5%; /* Adjust as needed */
+        left: 25%; /* Adjust as needed */
         width: 30%; /* Adjust as needed */
         height: 8%; /* Adjust as needed */
     }
 
     #website-btn {
         top: 80%; /* Adjust as needed */
-        left: 5%; /* Adjust as needed */
+        left: 25%; /* Adjust as needed */
         width: 30%; /* Adjust as needed */
         height: 8%; /* Adjust as needed */
     }
 
     #share-details-btn {
         top: 90%; /* Adjust as needed */
-        left: 5%; /* Adjust as needed */
+        left: 25%; /* Adjust as needed */
         width: 30%; /* Adjust as needed */
         height: 8%; /* Adjust as needed */
     }
 }
+
 
 
 
