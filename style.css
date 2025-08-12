@@ -19,14 +19,16 @@ body, html {
     display: block;
     padding: 15px; /* Keep this if you want internal padding */
     /* Make the button visible with a grey outline and text */
-    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
-    border: 2px solid grey; /* Grey outline, 2 pixels thick */
-    color: black; /* Black text for visibility */
+    background-color: #66BB6A; /* Lighter CRX green fill */
+    border: 1px solid #4CAF50; /* Slightly darker green border */
+    color: white; /* White text */
     cursor: pointer;
     text-align: center; /* Center the text within the button */
     text-decoration: none; /* Remove underline from links */
     box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
     font-weight: bold; /* Make text bold for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Uniform font size for all buttons */
 }
 #save-contact-btn { top: 42%; left: 25%; width: 60%; height: 6%; }
 #whatsapp-btn { top: 50%; left: 25%; width: 60%; height: 6%; }
@@ -115,6 +117,10 @@ body, html {
     cursor: pointer;
 }
 
-
-
-
+/* --- Responsive Design for Landscape/Desktop --- */
+@media screen and (min-width: 768px) {
+    .card-container {
+        background-image: url('card-background-desktop.png'); /* Landscape image */
+        /* Button positions remain the same as requested */
+    }
+}
