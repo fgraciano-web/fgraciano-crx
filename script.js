@@ -3,13 +3,19 @@ const modal = document.getElementById("contact-modal");
 const openBtn = document.getElementById("share-details-btn");
 const closeBtn = document.querySelector(".close-button");
 
-openBtn.onclick = () => { modal.style.display = "block"; }
-closeBtn.onclick = () => { modal.style.display = "none"; }
-window.onclick = (event) => {
-  if (event.target == modal) {
+openBtn.onclick = () => {
+    modal.style.display = "block";
+};
+
+closeBtn.onclick = () => {
     modal.style.display = "none";
-  }
-}
+};
+
+window.onclick = (event) => {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+};
 
 // Form submission functionality
 const form = document.getElementById('lead-capture-form');
@@ -37,4 +43,5 @@ form.addEventListener('submit', e => {
     console.error('Error!', error.message);
     alert('There was an error sending your details. Please try again.');
   });
+
 });
