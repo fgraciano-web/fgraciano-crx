@@ -17,7 +17,7 @@ body, html {
 .button {
     position: absolute;
     display: block;
-    padding: 15px; /* Keep this if you want internal padding */
+    padding: 10px; /* Keep this if you want internal padding */
     /* Make the button visible with a grey outline and text */
     background-color: #66BB6A; /* Lighter CRX green fill */
     border: 1px solid #4CAF50; /* Slightly darker green border */
@@ -158,3 +158,4 @@ body, html {
         height: 8%; /* Adjust as needed */
     }
 }
+
