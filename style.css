@@ -1,0 +1,33 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+.card-container {
+    background-image: url('card-background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.button {
+    position: absolute; /* This lets you place buttons precisely */
+    display: block;
+    padding: 15px;
+    /* Make the button invisible but clickable */
+    background-color: rgba(rgba(255, 255, 255, 0); /* Transparent */
+    border: 2px solid transparent; /* Optional: transparent border */
+    color: transparent; /* Hide text */
+    cursor: pointer;
+}
+/* --- Example Button Positioning --- */
+/* You must adjust these values based on your background design */
+#save-contact-btn { top: 65%; left: 20%; width: 60%; height: 10%; }
+#whatsapp-btn { top: 75%; left: 20%; width: 60%; height: 10%; }
+#email-btn { top: 85%; left: 20%; width: 60%; height: 10%; }
+#website-btn { top: 95%; left: 20%; width: 60%; height: 10%; }
+/* ... and so on for other buttons ... */

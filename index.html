@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Federico Graciano - CCO, CRX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card-container">
+        <a href="fgraciano-crx.vcf" class="button" id="save-contact-btn" download>Save to Contacts</a>
+        <a href="https://wa.me/6598198415" class="button" id="whatsapp-btn" target="_blank">Connect on WhatsApp</a>
+        <a href="mailto:f.graciano@climate-resources.com" class="button" id="email-btn">Email Me</a>
+        <a href="https://www.climateresources.net/" class="button" id="website-btn" target="_blank">Visit CRX Website</a>
+
+        <button class="button" id="share-details-btn">Share Your Details</button>
+    </div>
+
+    <div id="contact-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Share Your Contact Info</h2>
+            <form id="lead-capture-form">
+                <input type="text" id="name" name="name" placeholder="Full Name" required>
+                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                <input type="tel" id="phone" name="phone" placeholder="Contact Number (e.g., +1...)" >
+                <input type="text" id="company" name="company" placeholder="Company">
+                <button type="submit">Send to Me</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script> </body>
+</html>
