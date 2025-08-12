@@ -28,11 +28,11 @@ body, html {
     box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
     font-weight: bold; /* Make text bold for better visibility */
 }
-#save-contact-btn { top: 40%; left: 25%; width: 60%; height: 8%; }
-#whatsapp-btn { top: 50%; left: 25%; width: 60%; height: 8%; }
-#email-btn { top: 60%; left: 25%; width: 60%; height: 8%; }
-#website-btn { top: 70%; left: 25%; width: 60%; height: 8%; }
-#share-details-btn { top: 80%; left: 25%; width: 60%; height: 8%; }
+#save-contact-btn { top: 45%; left: 25%; width: 60%; height: 6%; }
+#whatsapp-btn { top: 55%; left: 25%; width: 60%; height: 6%; }
+#email-btn { top: 65%; left: 25%; width: 60%; height: 6%; }
+#website-btn { top: 75%; left: 25%; width: 60%; height: 6%; }
+#share-details-btn { top: 85%; left: 25%; width: 60%; height: 6%; }
 
 /* --- Modal Styles --- */
 .modal {
@@ -114,5 +114,6 @@ body, html {
     text-decoration: none;
     cursor: pointer;
 }
+
 
 
