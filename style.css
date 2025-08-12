@@ -33,3 +33,84 @@ body, html {
 #email-btn { top: 85%; left: 20%; width: 60%; height: 4%; }
 #website-btn { top: 90%; left: 20%; width: 60%; height: 4%; }
 #share-details-btn { top: 95%; left: 20%; width: 60%; height: 4%; }
+
+/* --- Modal Styles --- */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1000; /* Sit on top (higher than other content) */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    display: flex; /* Use flexbox for centering */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto; /* For browsers that don't support flexbox centering well */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more specific like max-width: 400px; */
+    max-width: 500px; /* Limits the maximum width for larger screens */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); /* Subtle shadow */
+    position: relative; /* Needed for positioning the close button inside */
+}
+
+.modal-content h2 {
+    text-align: center;
+    margin-top: 0;
+    color: #333;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between form fields */
+}
+
+.modal-content input[type="text"],
+.modal-content input[type="email"],
+.modal-content input[type="tel"] {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.modal-content button[type="submit"] {
+    background-color: #4CAF50; /* Green submit button */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.modal-content button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.close-button {
+    color: #aaa;
+    float: right; /* Positions the close button to the top-right */
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute; /* Absolute positioning relative to .modal-content */
+    top: 10px;
+    right: 15px;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
